@@ -586,10 +586,10 @@ a {
   background-color: #404bbf;
   border: none;
 }
-.close-btn:hover .close-icon {
+.close-btn:hover.close-icon {
   fill: #ffffff;
 }
-.close-btn:focus .close-icon {
+.close-btn:focus.close-icon {
   fill: #ffffff;
 }
 
@@ -672,6 +672,13 @@ a {
 }
 .user-comment:focus {
   border-color: #4d5ae5;
+}
+.user-comment::placeholder {
+  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
 }
 .checkbox {
   margin-bottom: 24px;
